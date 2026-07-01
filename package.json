@@ -1,0 +1,47 @@
+{
+  "name": "zabbix-supervision-hub",
+  "version": "1.0.0",
+  "description": "Zabbix Supervision Hub – Multi-instance Zabbix monitoring extension for Chrome & Firefox",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:chrome && npm run build:firefox && npm run package:release",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint --ext .ts,.vue src tests",
+    "typecheck": "vue-tsc --noEmit",
+    "build:firefox": "TARGET_BROWSER=firefox vite build",
+    "watch:firefox": "TARGET_BROWSER=firefox vite build --watch --mode development",
+    "build:chrome": "TARGET_BROWSER=chrome vite build",
+    "watch:chrome": "TARGET_BROWSER=chrome vite build --watch --mode development",
+    "package:release": "node scripts/package-release.mjs"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.62.8",
+    "dexie": "^4.0.10",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.11.5",
+    "@types/firefox-webext-browser": "^143.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/coverage-v8": "^2.1.8",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.4.2",
+    "vite": "^6.0.5",
+    "vite-plugin-web-extension": "^4.4.4",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.2.0",
+    "zip-a-folder": "^3.1.8",
+    "@rollup/rollup-darwin-x64": "^4.62.2"
+  }
+}

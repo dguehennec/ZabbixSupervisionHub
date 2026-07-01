@@ -1,0 +1,510 @@
+{
+  "extName": {
+    "message": "Zabbix Supervision Hub"
+  },
+  "extDescription": {
+    "message": "Supervision multi-instances Zabbix avec notifications pour Chrome et Firefox."
+  },
+  "popup_title": {
+    "message": "Zabbix Supervision Hub"
+  },
+  "popup_subtitle": {
+    "message": "Problèmes actifs sur vos instances"
+  },
+  "options_nav_instances": {
+    "message": "Instances"
+  },
+  "options_nav_environments": {
+    "message": "Environnements"
+  },
+  "options_nav_filters": {
+    "message": "Filtres"
+  },
+  "options_nav_about": {
+    "message": "À propos"
+  },
+  "about_donate": {
+    "message": "Faire un don"
+  },
+  "about_version_label": {
+    "message": "Version"
+  },
+  "about_authors": {
+    "message": "Par David GUEHENNEC"
+  },
+  "tab_dashboard": {
+    "message": "Tableau de bord"
+  },
+  "tab_problems": {
+    "message": "Incidents"
+  },
+  "tab_heatmap": {
+    "message": "Heatmap"
+  },
+  "tab_infrastructure": {
+    "message": "Infrastructure"
+  },
+  "refresh": {
+    "message": "Actualiser"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "back": {
+    "message": "Retour"
+  },
+  "loading": {
+    "message": "Chargement"
+  },
+  "search_placeholder": {
+    "message": "Rechercher incidents, hôtes, instances…"
+  },
+  "filter_all_environments": {
+    "message": "Tous les environnements"
+  },
+  "filter_all_instances": {
+    "message": "Toutes les instances"
+  },
+  "filter_unacknowledged": {
+    "message": "Non acquittés uniquement"
+  },
+  "group_by_trigger": {
+    "message": "Regrouper similaires"
+  },
+  "save_filter": {
+    "message": "Enregistrer filtre"
+  },
+  "preset_name_prompt": {
+    "message": "Nom du filtre :"
+  },
+  "filter_presets_section": {
+    "message": "Filtres enregistrés"
+  },
+  "no_filter_presets": {
+    "message": "Aucun filtre enregistré"
+  },
+  "no_problems": {
+    "message": "Aucun problème actif"
+  },
+  "hosts_impacted": {
+    "message": "Hôtes impactés"
+  },
+  "by_environment": {
+    "message": "Par environnement"
+  },
+  "top_critical": {
+    "message": "Top critiques"
+  },
+  "hosts": {
+    "message": "hôtes"
+  },
+  "host": {
+    "message": "Hôte"
+  },
+  "problems": {
+    "message": "incidents"
+  },
+  "total": {
+    "message": "Total"
+  },
+  "heatmap_hint": {
+    "message": "Charge d'incidents par hôte et niveau de criticité"
+  },
+  "heatmap_hint_period": {
+    "message": "Charge d'incidents par hôte et niveau de criticité sur la période sélectionnée"
+  },
+  "toggle_favorite": {
+    "message": "Favori"
+  },
+  "open_host": {
+    "message": "Ouvrir l'hôte"
+  },
+  "open_problem": {
+    "message": "Ouvrir dans Zabbix"
+  },
+  "acknowledge": {
+    "message": "Acquitter"
+  },
+  "acknowledged": {
+    "message": "Acquitté"
+  },
+  "ack_message_placeholder": {
+    "message": "Message d'acquittement (optionnel)"
+  },
+  "ack_default_message": {
+    "message": "Acquitté via Zabbix Supervision Hub"
+  },
+  "host_timeline": {
+    "message": "Timeline hôte"
+  },
+  "no_timeline_events": {
+    "message": "Aucun événement récent"
+  },
+  "severity_not_classified": {
+    "message": "Non classé"
+  },
+  "severity_information": {
+    "message": "Information"
+  },
+  "severity_warning": {
+    "message": "Avertissement"
+  },
+  "severity_average": {
+    "message": "Moyen"
+  },
+  "severity_high": {
+    "message": "Élevé"
+  },
+  "severity_disaster": {
+    "message": "Désastre"
+  },
+  "env_builtin_other": {
+    "message": "Autre"
+  },
+  "env_builtin_hide": {
+    "message": "Cacher"
+  },
+  "environments_section": {
+    "message": "Environnements"
+  },
+  "environments_hint": {
+    "message": "Définissez vos environnements personnalisés. « Autre » et « Cacher » sont toujours disponibles."
+  },
+  "add_environment": {
+    "message": "Ajouter un environnement"
+  },
+  "no_custom_environments": {
+    "message": "Aucun environnement personnalisé — cliquez sur Ajouter pour en créer un."
+  },
+  "move_up": {
+    "message": "Monter"
+  },
+  "move_down": {
+    "message": "Descendre"
+  },
+  "field_environment_label_placeholder": {
+    "message": "Nom de l'environnement (ex. Production)"
+  },
+  "environment_builtin": {
+    "message": "Intégré"
+  },
+  "environment_hidden_badge": {
+    "message": "Masqué"
+  },
+  "environment_hidden_hint": {
+    "message": "Les incidents associés à « Cacher » ne sont pas affichés (popup, badge, notifications)."
+  },
+  "save_environments": {
+    "message": "Enregistrer les environnements"
+  },
+  "environments_saved": {
+    "message": "Environnements enregistrés"
+  },
+  "instances_section": {
+    "message": "Instances Zabbix"
+  },
+  "add_instance": {
+    "message": "Ajouter une instance"
+  },
+  "no_instances": {
+    "message": "Aucune instance configurée"
+  },
+  "field_alias": {
+    "message": "Alias"
+  },
+  "field_environment": {
+    "message": "Environnement"
+  },
+  "environment_hostgroups_section": {
+    "message": "Environnements par host groups"
+  },
+  "environment_hostgroups_hint": {
+    "message": "Associez un host group Zabbix à un environnement. L'ordre des règles définit la priorité."
+  },
+  "add_environment_rule": {
+    "message": "Ajouter une règle"
+  },
+  "no_environment_rules": {
+    "message": "Aucune règle — les hôtes sans host group correspondant seront classés « Autre »."
+  },
+  "field_hostgroup_name": {
+    "message": "Host group Zabbix"
+  },
+  "field_hostgroup_name_placeholder": {
+    "message": "Ex. Linux servers"
+  },
+  "environment_default_other": {
+    "message": "Les hôtes dont aucun host group ne correspond à une règle sont classés « Autre »."
+  },
+  "save_environment_rules": {
+    "message": "Enregistrer les règles d'environnement"
+  },
+  "environment_rules_saved": {
+    "message": "Règles d'environnement enregistrées"
+  },
+  "title_hide_rules_section": {
+    "message": "Masquer des alertes par titre"
+  },
+  "title_hide_rules_hint": {
+    "message": "Les incidents dont le titre correspond à une expression régulière ne sont pas affichés (popup, badge, notifications)."
+  },
+  "add_title_hide_rule": {
+    "message": "Ajouter une règle"
+  },
+  "no_title_hide_rules": {
+    "message": "Aucune règle de masquage par titre."
+  },
+  "field_title_regex": {
+    "message": "Expression régulière (titre)"
+  },
+  "field_title_regex_placeholder": {
+    "message": "Ex. ^Disk.*full$ ou backup"
+  },
+  "title_hide_rule_invalid": {
+    "message": "Expression régulière invalide"
+  },
+  "title_hide_rules_invalid": {
+    "message": "Corrigez les expressions régulières invalides avant d'enregistrer."
+  },
+  "title_hide_rules_footer": {
+    "message": "Correspondance insensible à la casse. La première règle correspondante masque l'incident."
+  },
+  "save_title_hide_rules": {
+    "message": "Enregistrer les règles de masquage"
+  },
+  "title_hide_rules_saved": {
+    "message": "Règles de masquage enregistrées"
+  },
+  "field_api_url": {
+    "message": "URL API"
+  },
+  "field_web_url": {
+    "message": "URL interface web"
+  },
+  "field_username": {
+    "message": "Utilisateur"
+  },
+  "field_password": {
+    "message": "Mot de passe"
+  },
+  "field_auth_method": {
+    "message": "Authentification"
+  },
+  "auth_method_password": {
+    "message": "Utilisateur / mot de passe"
+  },
+  "auth_method_api_token": {
+    "message": "Token API"
+  },
+  "field_api_token": {
+    "message": "Token API Zabbix"
+  },
+  "api_token_placeholder": {
+    "message": "Coller le token généré dans Zabbix (Profil → Tokens API)"
+  },
+  "api_token_hint": {
+    "message": "Créez un token dans Zabbix : Utilisateurs → votre profil → Tokens API."
+  },
+  "error_api_token_not_set": {
+    "message": "Token API non défini pour cette instance"
+  },
+  "error_username_not_set": {
+    "message": "Utilisateur requis pour cette instance"
+  },
+  "error_missing_api_url": {
+    "message": "URL API requise"
+  },
+  "field_enabled": {
+    "message": "Activée"
+  },
+  "password_placeholder": {
+    "message": "Laisser vide pour conserver le mot de passe"
+  },
+  "save": {
+    "message": "Enregistrer"
+  },
+  "delete": {
+    "message": "Supprimer"
+  },
+  "connect": {
+    "message": "Connecter"
+  },
+  "disconnect": {
+    "message": "Déconnecter"
+  },
+  "test_connection": {
+    "message": "Tester la connexion"
+  },
+  "test_success": {
+    "message": "Connecté — API Zabbix $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "test_failed": {
+    "message": "Échec du test de connexion"
+  },
+  "saved": {
+    "message": "Paramètres enregistrés"
+  },
+  "connecting": {
+    "message": "Connexion…"
+  },
+  "confirm_delete_instance": {
+    "message": "Supprimer cette instance Zabbix ?"
+  },
+  "confirm_delete_preset": {
+    "message": "Supprimer ce filtre ?"
+  },
+  "general_settings": {
+    "message": "Paramètres généraux"
+  },
+  "auto_connect": {
+    "message": "Connexion automatique au démarrage"
+  },
+  "notifications_enabled": {
+    "message": "Notifications bureau"
+  },
+  "sound_enabled": {
+    "message": "Notifications sonores"
+  },
+  "hosts_filter_section": {
+    "message": "Filtrage des hôtes"
+  },
+  "exclude_disabled_hosts": {
+    "message": "Exclure les hôtes désactivés"
+  },
+  "exclude_maintenance_hosts": {
+    "message": "Exclure les hôtes en maintenance"
+  },
+  "exclude_disabled_triggers": {
+    "message": "Exclure les incidents de triggers/items désactivés"
+  },
+  "hosts_filter_hint": {
+    "message": "Les incidents liés aux éléments exclus ne sont pas affichés. Par défaut, les hôtes et triggers désactivés sont exclus (comportement interface Zabbix)."
+  },
+  "min_severity_display": {
+    "message": "Criticité minimum des incidents"
+  },
+  "min_severity_display_hint": {
+    "message": "Seuls les incidents de ce niveau ou plus seront affichés (popup, badge)."
+  },
+  "poll_interval": {
+    "message": "Intervalle de polling (secondes)"
+  },
+  "notification_problem_title": {
+    "message": "Zabbix $SEVERITY$",
+    "placeholders": {
+      "severity": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknown_host": {
+    "message": "Hôte inconnu"
+  },
+  "error_password_not_set": {
+    "message": "Mot de passe non défini pour cette instance"
+  },
+  "error_instance_not_found": {
+    "message": "Instance introuvable"
+  },
+  "error_origin_permission": {
+    "message": "Permission refusée pour ce serveur Zabbix"
+  },
+  "error_missing_fields": {
+    "message": "URL API et utilisateur requis"
+  },
+  "snooze": {
+    "message": "Mettre en sourdine"
+  },
+  "snooze_30m": {
+    "message": "30 min"
+  },
+  "snooze_1h": {
+    "message": "1 heure"
+  },
+  "snooze_4h": {
+    "message": "4 heures"
+  },
+  "unsnooze": {
+    "message": "Réactiver"
+  },
+  "snoozed_active": {
+    "message": "Notifications coupées pour cet incident"
+  },
+  "warroom_open": {
+    "message": "Ouvrir War Room"
+  },
+  "warroom_title": {
+    "message": "War Room"
+  },
+  "warroom_subtitle": {
+    "message": "Tableau de bord opérationnel"
+  },
+  "hide_snoozed": {
+    "message": "Masquer les incidents en sourdine"
+  },
+  "hide_acknowledged": {
+    "message": "Masquer les incidents acquittés"
+  },
+  "hide_acknowledged_hint": {
+    "message": "Les incidents acquittés ne sont plus affichés (popup, badge, heatmap)."
+  },
+  "warroom_refresh": {
+    "message": "Rafraîchissement War Room (secondes)"
+  },
+  "warroom_incidents": {
+    "message": "Derniers incidents"
+  },
+  "warroom_timeline": {
+    "message": "Timeline des incidents"
+  },
+  "warroom_timeline_hosts": {
+    "message": "Hôtes"
+  },
+  "warroom_select_all_hosts": {
+    "message": "Tout sélectionner"
+  },
+  "warroom_deselect_all_hosts": {
+    "message": "Tout désélectionner"
+  },
+  "warroom_no_incidents": {
+    "message": "Aucun incident"
+  },
+  "warroom_timeline_hint": {
+    "message": "Corréler les incidents entre hôtes — les anneaux ambre marquent des événements sur le même hôte dans les 5 minutes"
+  },
+  "warroom_network_graph": {
+    "message": "Graphe réseau"
+  },
+  "warroom_network_graph_hint": {
+    "message": "Hôtes par environnement — vert = OK, couleur = problèmes actifs sur la période sélectionnée"
+  },
+  "warroom_hosts_ok": {
+    "message": "OK"
+  },
+  "warroom_hosts_error": {
+    "message": "en erreur"
+  },
+  "warroom_no_hosts": {
+    "message": "Aucun hôte dans l'infrastructure"
+  },
+  "warroom_errors_by_env": {
+    "message": "Erreurs par environnement"
+  },
+  "warroom_period_from": {
+    "message": "Du"
+  },
+  "warroom_period_to": {
+    "message": "Au"
+  },
+  "warroom_period_last_6h": {
+    "message": "6 dernières h"
+  },
+  "warroom_view_switch": {
+    "message": "Vue centrale"
+  }
+}

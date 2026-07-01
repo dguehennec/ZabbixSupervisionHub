@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Zabbix Supervision Hub">
+  <defs>
+    <style>
+      .bg { fill: #1e293b; stroke: #334155; stroke-width: 4; }
+      .hub-line { stroke: #475569; stroke-width: 3; fill: none; }
+      .hub-node { fill: #64748b; }
+      .z { stroke: #e45959; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+  <rect class="bg" x="8" y="8" width="112" height="112" rx="22"/>
+  <g class="hub">
+    <line class="hub-line" x1="64" y1="64" x2="64" y2="22"/>
+    <line class="hub-line" x1="64" y1="64" x2="106" y2="64"/>
+    <line class="hub-line" x1="64" y1="64" x2="64" y2="106"/>
+    <line class="hub-line" x1="64" y1="64" x2="22" y2="64"/>
+    <circle class="hub-node" cx="64" cy="22" r="5"/>
+    <circle class="hub-node" cx="106" cy="64" r="5"/>
+    <circle class="hub-node" cx="64" cy="106" r="5"/>
+    <circle class="hub-node" cx="22" cy="64" r="5"/>
+  </g>
+  <path class="z" d="M38 42 H90 M90 42 L38 86 M38 86 H90"/>
+</svg>
