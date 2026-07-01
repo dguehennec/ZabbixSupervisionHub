@@ -1,0 +1,335 @@
+{
+  "extName": {
+    "message": "Zabbix Supervision Hub",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Wieloinstancyjny monitoring Zabbix z powiadomieniami dla Chrome i Firefox.",
+    "description": "Extension description"
+  },
+  "popup_title": {
+    "message": "Zabbix Supervision Hub"
+  },
+  "popup_subtitle": {
+    "message": "Active problems across your instances"
+  },
+  "tab_dashboard": {
+    "message": "Dashboard"
+  },
+  "tab_problems": {
+    "message": "Problemy"
+  },
+  "tab_heatmap": {
+    "message": "Heatmap"
+  },
+  "tab_infrastructure": {
+    "message": "Infrastructure"
+  },
+  "refresh": {
+    "message": "Odśwież"
+  },
+  "options": {
+    "message": "Ustawienia"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "loading": {
+    "message": "Loading"
+  },
+  "search_placeholder": {
+    "message": "Search problems, hosts, instances…"
+  },
+  "filter_all_environments": {
+    "message": "All environments"
+  },
+  "filter_all_instances": {
+    "message": "All instances"
+  },
+  "filter_unacknowledged": {
+    "message": "Unacknowledged only"
+  },
+  "group_by_trigger": {
+    "message": "Group similar"
+  },
+  "save_filter": {
+    "message": "Save filter"
+  },
+  "preset_name_prompt": {
+    "message": "Filter preset name:"
+  },
+  "filter_presets_section": {
+    "message": "Saved filters"
+  },
+  "no_filter_presets": {
+    "message": "No saved filters"
+  },
+  "no_problems": {
+    "message": "No active problems"
+  },
+  "hosts_impacted": {
+    "message": "Hosts impacted"
+  },
+  "by_environment": {
+    "message": "By environment"
+  },
+  "top_critical": {
+    "message": "Top critical"
+  },
+  "hosts": {
+    "message": "hosts"
+  },
+  "host": {
+    "message": "Host"
+  },
+  "problems": {
+    "message": "problems"
+  },
+  "total": {
+    "message": "Total"
+  },
+  "heatmap_hint": {
+    "message": "Incident load per host and severity level"
+  },
+  "toggle_favorite": {
+    "message": "Toggle favorite"
+  },
+  "open_host": {
+    "message": "Open host"
+  },
+  "open_problem": {
+    "message": "Open in Zabbix"
+  },
+  "acknowledge": {
+    "message": "Acknowledge"
+  },
+  "acknowledged": {
+    "message": "Acknowledged"
+  },
+  "ack_message_placeholder": {
+    "message": "Acknowledgement message (optional)"
+  },
+  "ack_default_message": {
+    "message": "Acknowledged via Zabbix Supervision Hub"
+  },
+  "host_timeline": {
+    "message": "Host timeline"
+  },
+  "no_timeline_events": {
+    "message": "No recent events"
+  },
+  "severity_not_classified": {
+    "message": "Not classified"
+  },
+  "severity_information": {
+    "message": "Information"
+  },
+  "severity_warning": {
+    "message": "Warning"
+  },
+  "severity_average": {
+    "message": "Average"
+  },
+  "severity_high": {
+    "message": "High"
+  },
+  "severity_disaster": {
+    "message": "Disaster"
+  },
+  "env_production": {
+    "message": "Production"
+  },
+  "env_staging": {
+    "message": "Staging"
+  },
+  "env_development": {
+    "message": "Development"
+  },
+  "env_other": {
+    "message": "Other"
+  },
+  "instances_section": {
+    "message": "Zabbix instances"
+  },
+  "add_instance": {
+    "message": "Add instance"
+  },
+  "no_instances": {
+    "message": "No instances configured yet"
+  },
+  "field_alias": {
+    "message": "Alias"
+  },
+  "field_environment": {
+    "message": "Environment"
+  },
+  "field_api_url": {
+    "message": "API URL"
+  },
+  "field_web_url": {
+    "message": "Web interface URL"
+  },
+  "field_username": {
+    "message": "Username"
+  },
+  "field_password": {
+    "message": "Password"
+  },
+  "field_enabled": {
+    "message": "Enabled"
+  },
+  "password_placeholder": {
+    "message": "Leave blank to keep saved password"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "connect": {
+    "message": "Connect"
+  },
+  "disconnect": {
+    "message": "Disconnect"
+  },
+  "test_connection": {
+    "message": "Test connection"
+  },
+  "test_success": {
+    "message": "Connected — Zabbix API $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "test_failed": {
+    "message": "Connection test failed"
+  },
+  "saved": {
+    "message": "Settings saved"
+  },
+  "connecting": {
+    "message": "Connecting…"
+  },
+  "confirm_delete_instance": {
+    "message": "Delete this Zabbix instance?"
+  },
+  "confirm_delete_preset": {
+    "message": "Delete this filter preset?"
+  },
+  "general_settings": {
+    "message": "General settings"
+  },
+  "auto_connect": {
+    "message": "Auto-connect on startup"
+  },
+  "notifications_enabled": {
+    "message": "Desktop notifications"
+  },
+  "sound_enabled": {
+    "message": "Sound notifications"
+  },
+  "poll_interval": {
+    "message": "Poll interval (seconds)"
+  },
+  "notification_problem_title": {
+    "message": "Zabbix $SEVERITY$",
+    "placeholders": {
+      "severity": {
+        "content": "$1"
+      }
+    }
+  },
+  "unknown_host": {
+    "message": "Unknown host"
+  },
+  "error_password_not_set": {
+    "message": "Password not set for this instance"
+  },
+  "error_instance_not_found": {
+    "message": "Instance not found"
+  },
+  "error_origin_permission": {
+    "message": "Host permission denied for this Zabbix server"
+  },
+  "error_missing_fields": {
+    "message": "API URL and username are required"
+  },
+  "snooze": {
+    "message": "Snooze"
+  },
+  "snooze_30m": {
+    "message": "30 min"
+  },
+  "snooze_1h": {
+    "message": "1 hour"
+  },
+  "snooze_4h": {
+    "message": "4 hours"
+  },
+  "unsnooze": {
+    "message": "Unsnooze"
+  },
+  "snoozed_active": {
+    "message": "Notifications muted for this incident"
+  },
+  "warroom_open": {
+    "message": "Open War Room"
+  },
+  "warroom_title": {
+    "message": "War Room"
+  },
+  "warroom_subtitle": {
+    "message": "Full-screen operations dashboard"
+  },
+  "hide_snoozed": {
+    "message": "Hide snoozed incidents"
+  },
+  "warroom_refresh": {
+    "message": "War room refresh (seconds)"
+  },
+  "no_custom_environments": {
+    "message": "No custom environments — click Add to create one."
+  },
+  "move_up": {
+    "message": "Move up"
+  },
+  "move_down": {
+    "message": "Move down"
+  },
+  "warroom_network_graph": {
+    "message": "Network graph"
+  },
+  "warroom_network_graph_hint": {
+    "message": "Hosts by environment — green = OK, colored = active problems in the selected period"
+  },
+  "warroom_hosts_ok": {
+    "message": "OK"
+  },
+  "warroom_hosts_error": {
+    "message": "in error"
+  },
+  "warroom_no_hosts": {
+    "message": "No hosts in infrastructure"
+  },
+  "warroom_errors_by_env": {
+    "message": "Errors by environment"
+  },
+  "warroom_period_from": {
+    "message": "From"
+  },
+  "warroom_period_to": {
+    "message": "To"
+  },
+  "warroom_period_last_6h": {
+    "message": "Last 6 h"
+  },
+  "warroom_view_switch": {
+    "message": "Center view"
+  },
+  "heatmap_hint_period": {
+    "message": "Incident load per host and severity level for the selected period"
+  }
+}
