@@ -226,7 +226,6 @@ export interface AppPrefs {
   problemSoundVolume: number;
   problemNotificationDuration: number;
   severitySoundMap: Record<ZabbixSeverity, SoundType>;
-  minSeverityNotify: ZabbixSeverity;
   minSeverityDisplay: ZabbixSeverity;
   instances: ZabbixInstanceConfig[];
   filterPresets: FilterPreset[];

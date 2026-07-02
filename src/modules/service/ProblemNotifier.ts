@@ -23,7 +23,7 @@ export class ProblemNotifier {
   fire(): void {
     const prefs = Prefs.get();
     if (!prefs.problemNotificationEnabled) return;
-    if (this.problem.severity < prefs.minSeverityNotify) return;
+    if (this.problem.severity < prefs.minSeverityDisplay) return;
     const environments = prefs.environments ?? defaultEnvironments();
     if (isHiddenEnvironment(this.problem.environment, environments)) return;
     if (isProblemHiddenByTitleRules(this.problem, prefs.problemTitleHideRules ?? [])) return;

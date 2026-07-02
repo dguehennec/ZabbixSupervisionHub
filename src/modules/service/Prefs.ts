@@ -29,7 +29,6 @@ const DEFAULT_PREFS: AppPrefs = {
   problemSoundVolume: Constants.DEFAULT_PREFS.PROBLEM_SOUND_VOLUME,
   problemNotificationDuration: Constants.DEFAULT_PREFS.PROBLEM_NOTIFICATION_DURATION,
   severitySoundMap: { ...Constants.DEFAULT_PREFS.SEVERITY_SOUND_MAP },
-  minSeverityNotify: Constants.DEFAULT_PREFS.MIN_SEVERITY_NOTIFY,
   minSeverityDisplay: Constants.DEFAULT_PREFS.MIN_SEVERITY_DISPLAY,
   instances: [],
   filterPresets: [],

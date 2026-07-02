@@ -1,6 +1,6 @@
 {
   "name": "zabbix-supervision-hub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zabbix Supervision Hub – Multi-instance Zabbix monitoring extension for Chrome & Firefox",
   "type": "module",
   "scripts": {
